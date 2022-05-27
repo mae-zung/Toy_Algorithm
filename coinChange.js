@@ -1,3 +1,5 @@
+// coinChange
+
 // 다양한 동전들을 가지고 특정 금액을 만들 수 있는 모든 경우의 수를 리턴해야 합니다.
 // 예를 들어, 100원, 500원짜리 동전을 가지고 1,000원을 만들 수 있는 방법은 총 3가지 입니다.
 // 100원 10개, 100원 5개 + 500원 1개, 500원 2개
@@ -27,6 +29,8 @@ const coinChange = function (total, coins) {
   
 };
 
+
+//  입출력 예시
 let total = 10;
 let coins = [1, 5];
 let output = coinChange(total, coins);
